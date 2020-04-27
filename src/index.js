@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Application from './components/Application';
+import Checkall_main from './components/Checkall_main';
+import Table from './components/Table';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Application />, document.getElementById('root'));
+ReactDOM.render(<Checkall_main />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
